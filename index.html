@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list app</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="/images/Calendar Todo Line Icon.png" type="image/x-icon">
+    <!-- <a href="https://www.flaticon.com/free-icons/yes" title="yes icons">Yes icons created by hqrloveq - Flaticon</a> -->
+    <!-- <a href="https://www.flaticon.com/free-icons/unchecked" title="unchecked icons">Unchecked icons created by Icon Mela - Flaticon</a> -->
+</head>
+<body>
+    <div class="container">
+        <div class="Todo-app">
+            <h1>To Do List <img src="./images/2620529_checklist_employee_job_seeker_unemployee_icon.png" alt="checklist"></h1>
+            <h5></h5>
+            <div class="row">
+                <input type="text" id="inputbox" placeholder="Add Your text">
+                <button onclick="addtask()">Add</button>
+            </div>
+            <ul id="list-cont" type="none">
+                <!-- <li class="checked">hi</li>
+                <li>hi</li>
+                <li>hi</li>
+                <li>hi</li>
+                <li>hi</li> -->
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
